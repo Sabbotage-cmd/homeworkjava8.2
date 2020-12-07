@@ -33,8 +33,8 @@ public class Radio{
 
     public void setVolume(int volume) {
 
-        if (volume > 10){
-            this.volume = 10;
+        if (volume > 100){
+            this.volume = 100;
             return;
         }
 
@@ -52,7 +52,7 @@ public class Radio{
     }
 
     public void increaseVolume(){
-        if (this.getVolume() == 10) {
+        if (this.getVolume() == 100) {
             return;
         }
         this.volume++;
